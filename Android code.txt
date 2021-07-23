@@ -1,0 +1,147 @@
+<!-- Rectangle 1 -->
+<View
+android:id="@+id/rectangle_1"
+android:layout_width="100dp"
+android:layout_height="100dp"
+android:background="@drawable/rectangle_1"
+ />
+
+
+<!-- drawable/rectangle_1.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="100dp"
+android:height="100dp"
+android:viewportWidth="100"
+android:viewportHeight="100"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H100V100H0V0Z"
+/>
+
+<path
+android:pathData="M0 0V100H100V0"
+android:fillColor="#C4C4C4"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- 375x812 -->
+<TextView
+android:id="@+id/x812"
+android:layout_width="200dp"
+android:layout_height="58dp"
+android:text="@string/x812"
+android:textAppearance="@style/x812"
+android:gravity="center_horizontal|top"
+ />
+
+<!--
+  Font family: Inter
+  Line height: 58sp
+  (identical to box height)
+-->
+<!-- styles.xml -->
+<style name="x812">
+
+<item name="android:textSize">
+48sp
+</item>
+
+<item name="android:textColor">
+#000000
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="x812">
+
+375x812
+</string>
+
+
+
+
+<!-- iPhone 11 Pro / X - 1 -->
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/iphone_11_p"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:clipToOutline="true"
+android:background="@drawable/iphone_11_p"
+ />
+
+
+<!-- drawable/iphone_11_p.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="375dp"
+android:height="812dp"
+android:viewportWidth="375"
+android:viewportHeight="812"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M30 0H345C361.569 0 375 13.4315 375 30V782C375 798.569 361.569 812 345 812H30C13.4315 812 0 798.569 0 782V30C0 13.4315 13.4315 0 30 0Z"
+/>
+
+<path
+android:pathData="M0 0V812H375V0"
+android:fillColor="#FFFFFF"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- Frame 1 -->
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/frame_1"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:clipToOutline="true"
+android:background="@drawable/frame_1"
+ />
+
+
+<!-- drawable/frame_1.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="2000dp"
+android:height="2000dp"
+android:viewportWidth="2000"
+android:viewportHeight="2000"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H2000V2000H0V0Z"
+/>
+
+<path
+android:pathData="M0 0V2000H2000V0"
+android:fillColor="#FFFFFF"
+/>
+
+</group>
+
+</vector>
